@@ -41,21 +41,32 @@
                     android:id="@+id/textViewEntrada"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="Entrada" />
+                    android:text="Entrada"
+                    android:textColor="@android:color/black" />
 
                 <Button
                     android:id="@+id/bPersianEntradaOn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_weight="1"
+                    android:background="#B7F1BA"
                     android:text="ON" />
 
                 <Button
                     android:id="@+id/bPersianEntradaOff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_weight="1"
+                    android:background="#F1B7B7"
                     android:text="OFF" />
             </LinearLayout>
 
@@ -69,21 +80,32 @@
                     android:id="@+id/textViewSalon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="Salon" />
+                    android:text="Salon"
+                    android:textColor="@android:color/black" />
 
                 <Button
                     android:id="@+id/bPersianSalonOn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_weight="1"
+                    android:background="#B7F1BA"
                     android:text="ON" />
 
                 <Button
                     android:id="@+id/bPersianSalonOff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_weight="1"
+                    android:background="#F1B7B7"
                     android:text="OFF" />
             </LinearLayout>
 
@@ -97,21 +119,32 @@
                     android:id="@+id/textViewHabPrincipal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="Habitación principal" />
+                    android:text="Habitación principal"
+                    android:textColor="@android:color/black" />
 
                 <Button
                     android:id="@+id/bPersianHabPrincipalOn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_weight="1"
+                    android:background="#B7F1BA"
                     android:text="ON" />
 
                 <Button
                     android:id="@+id/bPersianHabPrincipalOff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_weight="1"
+                    android:background="#F1B7B7"
                     android:text="OFF" />
 
             </LinearLayout>
@@ -126,22 +159,19 @@
                     android:id="@+id/textViewHabPequenia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="Habitacion pequeña" />
+                    android:text="Habitacion pequeña"
+                    android:textColor="@android:color/black" />
 
-                <Button
-                    android:id="@+id/bPersianHabPequeniaOn"
-                    android:layout_width="match_parent"
+                <ToggleButton
+                    android:id="@+id/toggleButtonVentanaHabitacion"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bPersianHabPequeniaOff"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
+                    android:text="SI"
+                    android:layout_weight="0"
+                    />
 
             </LinearLayout>
 
@@ -155,21 +185,32 @@
                     android:id="@+id/textViewCocina"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="Cocina" />
+                    android:text="Cocina"
+                    android:textColor="@android:color/black" />
 
                 <Button
                     android:id="@+id/bPersianCocinaOn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_weight="1"
+                    android:background="#B7F1BA"
                     android:text="ON" />
 
                 <Button
                     android:id="@+id/bPersianCocinaOff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_weight="1"
+                    android:background="#F1B7B7"
                     android:text="OFF" />
             </LinearLayout>
 
@@ -183,21 +224,32 @@
                     android:id="@+id/textViewBanio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="Baño" />
+                    android:text="Baño"
+                    android:textColor="@android:color/black" />
 
                 <Button
                     android:id="@+id/bPersianBanioOn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_weight="1"
+                    android:background="#B7F1BA"
                     android:text="ON" />
 
                 <Button
                     android:id="@+id/bPersianBanioOff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_weight="1"
+                    android:background="#F1B7B7"
                     android:text="OFF" />
             </LinearLayout>
         </LinearLayout>

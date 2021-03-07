@@ -41,50 +41,20 @@
                     android:id="@+id/textViewPrincipal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="Principal" />
+                    android:text="Principal"
+                    android:textColor="@android:color/black" />
 
-                <Button
-                    android:id="@+id/bPrincipalOn"
-                    android:layout_width="match_parent"
+                <ToggleButton
+                    android:id="@+id/toggleButtonPuertaCorredera"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bPrincipalOff"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textViewTrasera"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Trasera" />
-
-                <Button
-                    android:id="@+id/bTraseraOn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bTraseraOff"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="SI" />
             </LinearLayout>
 
             <LinearLayout
@@ -97,22 +67,20 @@
                     android:id="@+id/textViewSalon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="Salon" />
+                    android:text="Salon"
+                    android:textColor="@android:color/black" />
 
-                <Button
-                    android:id="@+id/bSalonOn"
-                    android:layout_width="match_parent"
+                <ToggleButton
+                    android:id="@+id/toggleButtonPuertaSalon"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bSolonOff"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="SI" />
             </LinearLayout>
 
             <LinearLayout
@@ -125,50 +93,20 @@
                     android:id="@+id/textViewHabPrincipal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="Habitacion principal" />
+                    android:text="Habitacion principal"
+                    android:textColor="@android:color/black" />
 
-                <Button
-                    android:id="@+id/bHabPrincipalOn"
-                    android:layout_width="match_parent"
+                <ToggleButton
+                    android:id="@+id/toggleButtonPuertaHabitacion"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bHabPrincipalOff"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textViewHabPequenia"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Habitación pequeña" />
-
-                <Button
-                    android:id="@+id/bHabPequeniaOn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bHabPequeniaOff"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="SI" />
             </LinearLayout>
 
             <LinearLayout
@@ -181,51 +119,22 @@
                     android:id="@+id/textViewCocina"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="Cocina" />
+                    android:text="Cocina"
+                    android:textColor="@android:color/black" />
 
-                <Button
-                    android:id="@+id/bCocinaOn"
-                    android:layout_width="match_parent"
+                <ToggleButton
+                    android:id="@+id/toggleButtonPuertaCocina"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bCocinaOff"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="SI" />
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textViewBanio"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Baño" />
-
-                <Button
-                    android:id="@+id/bBanioOn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bBanioOff"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
-            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

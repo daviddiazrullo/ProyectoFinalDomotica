@@ -13,18 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void cambioActivityAlarma(View vista) {
-
-        Intent siguiente = new Intent(this, Alarma.class);
-
-        startActivity(siguiente);
-    }
-    public void cambioActivityGas(View vista) {
-
-        Intent siguiente = new Intent(this, Gas.class);
-
-        startActivity(siguiente);
-    }
     public void cambioActivityLuz(View vista) {
 
         Intent siguiente = new Intent(this, Luz.class);

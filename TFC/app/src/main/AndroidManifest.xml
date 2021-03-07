@@ -10,10 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Luz"></activity>
-        <activity android:name=".Alarma" />
         <activity android:name=".Puertas" />
         <activity android:name=".Temperatura" />
-        <activity android:name=".Gas" />
         <activity android:name=".Persianas" />
         <activity android:name=".MainActivity">
             <intent-filter>

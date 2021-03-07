@@ -31,53 +31,77 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/bAlarma"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:onClick="cambioActivityAlarma"
-                android:text="ALARMA" />
-
-            <Button
-                android:id="@+id/bGas"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:onClick="cambioActivityGas"
-                android:text="GAS" />
+                android:orientation="vertical"></LinearLayout>
 
             <Button
                 android:id="@+id/bLuz"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="#99BAFD"
                 android:onClick="cambioActivityLuz"
-                android:text="LUZ" />
+                android:text="LUZ"
+                android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/bPersianas"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="#99BAFD"
                 android:onClick="cambioActivityPersianas"
-                android:text="PERSIANAS" />
+                android:text="PERSIANAS"
+                android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/bPuertas"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="#99BAFD"
                 android:onClick="cambioActivityPuertas"
-                android:text="PUERTAS" />
+                android:text="PUERTAS"
+                android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/bTemperatura"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="#99BAFD"
                 android:onClick="cambioActivityTemperatura"
-                android:text="TEMPERATURA" />
+                android:text="TEMPERATURA"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
 
         </LinearLayout>
     </LinearLayout>

@@ -37,28 +37,25 @@
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/editTextExterior"
+                <TextView
+                    android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Exterior" />
+                    android:text="Salon"
+                    android:textColor="@android:color/black" />
 
-                <Button
-                    android:id="@+id/bExteriorOn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
 
-                <Button
-                    android:id="@+id/bExteriorOff"
-                    android:layout_width="wrap_content"
+                <ToggleButton
+                    android:id="@+id/toggleButtonLuzSalon"
+                    android:layout_width="140dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_weight="1"
-                    android:text="OFF" />
+                    android:text="SI" />
             </LinearLayout>
 
             <LinearLayout
@@ -67,28 +64,24 @@
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/editTextEntrada"
+                <TextView
+                    android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Entrada" />
+                    android:text="Cocina"
+                    android:textColor="@android:color/black" />
 
-                <Button
-                    android:id="@+id/bEntradaOn"
-                    android:layout_width="wrap_content"
+                <ToggleButton
+                    android:id="@+id/toggleButtonLuzCocina"
+                    android:layout_width="155dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bEntradaOff"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
+                    android:text="SI" />
             </LinearLayout>
 
             <LinearLayout
@@ -97,28 +90,25 @@
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/editTextSalon"
+                <TextView
+                    android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Salón" />
+                    android:text="Habitación"
+                    android:textColor="@android:color/black" />
 
-                <Button
-                    android:id="@+id/bSalonOn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
 
-                <Button
-                    android:id="@+id/bSalonOff"
-                    android:layout_width="wrap_content"
+                <ToggleButton
+                    android:id="@+id/toggleButtonLuzHabitacion"
+                    android:layout_width="175dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_weight="1"
-                    android:text="OFF" />
+                    android:text="SI" />
             </LinearLayout>
 
             <LinearLayout
@@ -127,119 +117,26 @@
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/editTextHabPrincipal"
+                <TextView
+                    android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Habitación principal" />
+                    android:text="Salón"
+                    android:textColor="@android:color/black" />
 
                 <Button
-                    android:id="@+id/bHabPrincipalOn"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/buttonRGB"
+                    android:layout_width="240dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bHabPrincipalOff"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="ENCENDER" />
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/editTextHabPequenia"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Habitación pequeña" />
-
-                <Button
-                    android:id="@+id/bPersianHabPrincipalOn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bPersianHabPequeniaOff"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <EditText
-                    android:id="@+id/editTextCocina"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Cocina" />
-
-                <Button
-                    android:id="@+id/bPersianCocinaOn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bPersianCocinaOff"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <EditText
-                    android:id="@+id/editTextBanio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Baño" />
-
-                <Button
-                    android:id="@+id/bPersianBanioOn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ON" />
-
-                <Button
-                    android:id="@+id/bPersianBanioOff"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="OFF" />
-            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
